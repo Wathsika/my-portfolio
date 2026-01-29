@@ -9,7 +9,7 @@ import Footer from "./components/Footer"; // Import newly created component
 
 function App() {
   return (
-    <div className="min-h-screen selection:bg-indigo-100 selection:text-indigo-900">
+    <div className="min-h-screen selection:bg-indigo-100 selection:text-indigo-900 overflow-x-hidden">
       <Navbar />
       <main>
         <Hero />
