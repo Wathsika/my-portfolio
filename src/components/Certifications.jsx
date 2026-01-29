@@ -1,20 +1,9 @@
 import { motion } from "framer-motion";
 import { Award, CheckCircle2 } from "lucide-react";
+// Import the data from your content file (adjust the path if necessary)
+import { certifications } from "../data/content";
 
 export default function Certifications() {
-  const certs = [
-    {
-      title: "Postman API Fundamentals",
-      issuer: "Postman Student Expert",
-      color: "border-orange-200 bg-orange-50/30",
-    },
-    {
-      title: "Python for Beginners",
-      issuer: "University of Moratuwa",
-      color: "border-blue-200 bg-blue-50/30",
-    },
-  ];
-
   return (
     <section className="py-24 px-6 bg-slate-50">
       <div className="max-w-7xl mx-auto">
@@ -26,7 +15,8 @@ export default function Certifications() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {certs.map((cert, index) => (
+          {/* Map through the imported certifications array */}
+          {certifications.map((cert, index) => (
             <motion.div
               key={index}
               whileHover={{ scale: 1.02 }}

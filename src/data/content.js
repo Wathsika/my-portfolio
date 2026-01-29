@@ -50,3 +50,16 @@ export const skillCategories = [
     skills: ["Git", "Docker", "Postman", "AI Tools"],
   },
 ];
+
+export const certifications = [
+  {
+    title: "Postman API Fundamentals",
+    issuer: "Postman Student Expert",
+    color: "border-orange-200 bg-orange-50/30",
+  },
+  {
+    title: "Python for Beginners",
+    issuer: "University of Moratuwa",
+    color: "border-blue-200 bg-blue-50/30",
+  },
+];
