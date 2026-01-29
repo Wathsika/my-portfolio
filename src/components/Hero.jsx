@@ -27,7 +27,7 @@ export default function Hero() {
             <span>Available for Internship</span>
           </div>
 
-          {/* Name in one line */}
+          {/* Name */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 leading-tight tracking-tight">
             Hi, I'm{" "}
             <span className="text-[#4f46e5] whitespace-nowrap">
@@ -69,7 +69,7 @@ export default function Hero() {
           </div>
         </motion.div>
 
-        {/* Right Side: Geometric Profile Picture Effect */}
+        {/* Right Side: Profile Picture (No Frames, Keeping Zoom) */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -77,24 +77,7 @@ export default function Hero() {
           className="relative flex justify-center lg:justify-end"
         >
           <div className="relative w-72 h-72 md:w-96 md:h-96">
-            {/* IMPROVED VISIBILITY: Rotating Dashed Frame */}
-            <motion.div
-              animate={{ rotate: 360 }}
-              transition={{ repeat: Infinity, duration: 25, ease: "linear" }}
-              // Increased border to [3px], used indigo-400 with 40% opacity,
-              // and used -inset-4 to make it larger than the photo
-              className="absolute -inset-4 border-[3px] border-dashed border-[#4f46e5]/40 rounded-[48px]"
-            />
-
-            {/* IMPROVED VISIBILITY: Solid Floating Background Frame */}
-            <motion.div
-              animate={{ y: [0, -15, 0], x: [0, 10, 0] }}
-              transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
-              // Increased border thickness and opacity
-              className="absolute inset-2 border-[2px] border-[#4f46e5]/20 rounded-[32px] -z-10 bg-[#4f46e5]/5 shadow-inner"
-            />
-
-            {/* Main Image Container */}
+            {/* Main Image Container - Keeps the hover zoom motion */}
             <div className="w-full h-full rounded-[32px] overflow-hidden border-4 border-white shadow-2xl relative z-10 group bg-slate-100">
               <img
                 src={profileImg}
