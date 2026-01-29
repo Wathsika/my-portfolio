@@ -4,16 +4,14 @@ import { Award, CheckCircle2 } from "lucide-react";
 export default function Certifications() {
   const certs = [
     {
-      title: "Python for Beginners",
-      issuer: "University of Moratuwa",
-      date: "2023",
-      color: "border-blue-200 bg-blue-50/30",
-    },
-    {
       title: "Postman API Fundamentals",
       issuer: "Postman Student Expert",
-      date: "2024",
       color: "border-orange-200 bg-orange-50/30",
+    },
+    {
+      title: "Python for Beginners",
+      issuer: "University of Moratuwa",
+      color: "border-blue-200 bg-blue-50/30",
     },
   ];
 
@@ -44,7 +42,7 @@ export default function Certifications() {
                 <p className="text-slate-600 font-medium mb-2">{cert.issuer}</p>
                 <div className="flex items-center gap-2 text-xs font-bold text-slate-400">
                   <CheckCircle2 size={14} className="text-secondary" />
-                  VERIFIED CREDENTIAL • {cert.date}
+                  VERIFIED CREDENTIAL
                 </div>
               </div>
             </motion.div>
