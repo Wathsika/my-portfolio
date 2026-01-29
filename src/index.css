@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4f46e5;
+  --color-secondary: #10b981;
+  --color-accent: #6366f1;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+:root {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
