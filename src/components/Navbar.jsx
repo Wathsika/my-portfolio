@@ -14,7 +14,7 @@ export default function Navbar() {
 
         {/* Desktop Nav Links */}
         <div className="hidden md:flex space-x-8 font-bold text-slate-600">
-          <a href="#about" className="hover:text-[#4f46e5] transition-colors">
+          <a href="#hero" className="hover:text-[#4f46e5] transition-colors">
             About
           </a>
           <a href="#skills" className="hover:text-[#4f46e5] transition-colors">

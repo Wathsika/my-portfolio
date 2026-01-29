@@ -107,7 +107,9 @@ export default function Contact() {
                       Mail Me
                     </p>
                     <p className="text-slate-900 font-bold text-sm">
-                      wathsika@gmail.com
+                      wathsikapallimulla@
+                      <br />
+                      gmail.com
                     </p>
                   </div>
                 </a>
@@ -230,7 +232,7 @@ export default function Contact() {
               {/* Status Notifications */}
               {status === "success" && (
                 <div className="flex items-center gap-2 text-emerald-600 font-bold text-sm bg-emerald-50 p-3 rounded-lg border border-emerald-100">
-                  <CheckCircle size={18} /> Message sent successfully!
+                  <CheckCircle size={18} /> Mail sent successfully!
                 </div>
               )}
               {status === "error" && (
