@@ -90,7 +90,7 @@ export default function About() {
                   Secondary Education
                 </span>
 
-                {/* Highlighted Status */}
+                {/* G.C.E. Advanced Level */}
                 <h3 className="text-lg font-bold text-slate-900 mt-1">
                   G.C.E. Advanced Level
                 </h3>
@@ -99,19 +99,9 @@ export default function About() {
                   Physical Science Stream
                 </p>
 
-                {/* Grades Highlight */}
-                <div className="mt-2">
-                  <p className="text-slate-500 text-sm">
-                    Passed with{" "}
-                    <span className="text-slate-900 font-bold">
-                      3 'C' passes
-                    </span>{" "}
-                    in:
-                  </p>
-                  <p className="text-slate-500 text-sm italic mt-1 font-medium">
-                    Physics, Combined Mathematics, and Chemistry
-                  </p>
-                </div>
+                <p className="text-slate-500 text-sm mt-1">
+                  Passed in Physics, Combined Mathematics, and Chemistry
+                </p>
               </div>
             </div>
           </motion.div>
