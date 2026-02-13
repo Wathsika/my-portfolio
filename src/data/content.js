@@ -1,8 +1,28 @@
 import farmImg from "../assets/projects/farmImg.png";
 import foodImg from "../assets/projects/foodImg.png";
 import movieImg from "../assets/projects/movieImg.png";
+import reminder_botImg from "../assets/projects/reminder_botImg.png";
 
 export const projects = [
+  {
+    title: "AI Reminder Bot – DevOps Powered Discord Assistant",
+    description:
+      "A containerized AI-powered Discord bot that manages reminders and schedules using natural language processing. Built with Python and PostgreSQL, deployed using Docker & Docker Compose, and automated through a CI/CD pipeline with GitHub Actions for production deployment.",
+    tech: [
+      "Python",
+      "Discord API",
+      "Docker",
+      "Docker Compose",
+      "PostgreSQL",
+      "SQLAlchemy",
+      "GitHub Actions",
+      "CI/CD",
+    ],
+    github: "https://github.com/Wathsika/ai-reminder-bot",
+    link: "YOUR_DEPLOYMENT_LINK_IF_AVAILABLE",
+    image: reminder_botImg,
+  },
+
   {
     title: "MERN Stack E-Commerce Platform",
     description:
