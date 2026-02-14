@@ -60,8 +60,8 @@ export default function Hero() {
               View Projects <ArrowRight size={18} />
             </a>
             <a
-              href="/Wathsika_CV.pdf"
-              download="Wathsika_CV.pdf"
+              href="/Wathsika_Pallimulla_CV.pdf"
+              download="Wathsika_Pallimulla_CV.pdf"
               className="px-8 py-4 bg-white border-2 border-slate-200 text-slate-900 rounded-xl hover:border-[#4f46e5] hover:text-[#4f46e5] transition-all duration-300 flex items-center gap-2 font-bold"
             >
               Download CV <FileText size={18} />
